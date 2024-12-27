@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+/* Header */
+.App-header {
+  background-color: #AB644B;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+/* Chat Area */
+.Chat-area {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fdf8f5; /* Light beige background for chat area */
+}
+/* Messages */
+.Message {
+  max-width: 80%;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Message.user {
+  align-self: flex-end;
+  background: #AB644B;
+  color: white;
+}
+
+.Message.bot {
+  align-self: flex-start;
+  background: #fff;
+  border: 1px solid #AB644B; /* Use primary color as border */
+  color: #333;
+}
+/* Structured Response Styles */
+.bot .section-title {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #AB644B; /* Use primary color for section titles */
+}
+
+.bot .section-content {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  margin-left: 20px;
+  color: #333; /* Darker text for readability */
+}
+
+.bot .subsection-title {
+  font-style: italic;
+  margin-bottom: 3px;
+  margin-top: 5px;
+  color: #96543d; /* Slightly darker shade of primary */
+}
+
+.bot ul {
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  list-style-type: disc;
+  color: #333;
+}
+
+.bot ol {
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  list-style-type: decimal;
+  color: #333;
+}
+
+/* Input Area */
+.Input-area {
+  display: flex;
+  padding: 10px;
+  background: #fff;
+  border-top: 2px solid #AB644B; /* Add primary color for border */
+}
+
+.Input-area input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #AB644B; /* Use primary color for input border */
+  border-radius: 5px;
+}
+
+.Input-area input:focus {
+  outline: none;
+  border-color: #96543d; /* Darker shade on focus */
+}
+
+.Input-area button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #AB644B;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Input-area button:hover {
+  background-color: #96543d; /* Darker hover color */
+}
+/* Scrollbar (Optional for Aesthetic) */
+.Chat-area::-webkit-scrollbar {
+  width: 8px;
+}
+
+.Chat-area::-webkit-scrollbar-track {
+  background: #fdf8f5; /* Match chat background */
+}
+
+.Chat-area::-webkit-scrollbar-thumb {
+  background-color: #AB644B; /* Primary color for scrollbar */
+  border-radius: 4px;
+}

@@ -10,7 +10,7 @@ The MVP leverages OpenAI to provide insights and actionable steps for:
 - **Implementing best practices** to secure valid, informed, and freely given consent.
 - **Avoiding common pitfalls** in consent management that could lead to legal issues.
 
-This MVP will evolve to include fallback mechanisms and integration with other sources and **Large Language Models (LLMs)** like OpenDSR to offer more robust and context-specific solutions.
+This MVP will evolve to include fallback mechanisms and integration with other sources like OpenDSRand **Large Language Models (LLMs)** to offer more robust and context-specific solutions.
 
 ---
 ## Tools Used (allFree)

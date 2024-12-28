@@ -65,7 +65,7 @@ Prerequisite: OpenAI API Key
 ## 🔑 Features to Be Developed Next
 
 - **Enhanced Fallback Mechanisms:** Ensure consistent responses even when specific cases aren't covered.
-- **Integration with OpenDSR and Other LLMs:** Broaden the scope of actionable advice.
+- **Integration with ConsentStack/ GDPR.eu and Other LLMs:** Broaden the scope of general and actionable advice.
 - **Industry-Specific Insights:** Tailor recommendations to specific marketing sectors.
 
 ## 👩‍💻 Contributors
